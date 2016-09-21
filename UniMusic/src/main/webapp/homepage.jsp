@@ -15,9 +15,10 @@
 <!--***************************************************************************************************************-->
 
 <link rel="stylesheet" href="Design.css">
+<link rel= "icon" href= "Images/favicon.ico">
 </head>
 <body>
-	<div class=" container " id= "main_container"> 
+<div class=" container " id= "main_container"> 
 	
 	<div class="navbar-wrapper">
       
@@ -37,40 +38,21 @@
         		<span class="icon-bar"></span>
       			
       			</button>
-	 	 		
-	 	 		
-	 	 		
 	 	 		</div>
 	 	 		
 	 	 		<div class="collapse navbar-collapse" id="mainMenu">
-	 	 			
 	 	 			<ul class="nav navbar-nav">
-	 	 				<li class="active">
-	 	 				<a href="homepage.jsp">Home</a>	
-	 	 				</li>
-	 	 				<li>
-	 	 				<a href="songs.jsp">Songs</a>
-	 	 				</li>
-	 	 				<li>
-	 	 				<a href="albums.jsp">Albums</a>
-	 	 				</li>
-	 	 				<li>
-	 	 				<a href="instruments.jsp">Instruments</a>
-	 	 				</li>
+	 	 				<li class="active"><a href="homepage.jsp">Home</a></li>
+	 	 				<li><a href="songs.jsp">Songs</a></li>
+	 	 				<li><a href="albums.jsp">Albums</a></li>
+	 	 				<li><a href="instruments.jsp">Instruments</a></li>
 	 	 				<li class="dropdown">
 	 	 				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class=" glyphicon glyphicon-shopping-cart" aria-hidden="true"> </span>My Cart<strong class="caret"></strong></a>
 	 	 				<ul class="dropdown-menu">
-	 	 				 	<li>
-	 	 				 	<a href="#">View Cart Items</a>
-	 	 				 	</li>
-	 	 				 	<li>
-	 	 				 	<a href="#">Empty The Cart</a>
-	 	 				 	</li>
-	 	 				 	<li>
-	 	 				 	<a href="#">Proceed to Checkout</a>
-	 	 				 	</li>
+	 	 				 	<li><a href="#">View Cart Items</a></li>
+	 	 				 	<li><a href="#">Empty The Cart</a></li>
+	 	 				 	<li><a href="#">Proceed to Checkout</a></li>
 	 	 				</ul> <!-- end dropdown menu -->
-	 	 				
 	 	 				</li>
 	 	 			</ul>
 	 	 			
@@ -124,9 +106,9 @@
 	 	</div>
 	 	</div>
 	 
-	 	<div class="container" id="carouselContainer">
+	<div class="container" id="carouselContainer">
 	 	
-	 	<div class="carousel slide" id="mainCarousel" data-ride="carousel">
+	 	<div class="carousel" id="mainCarousel" data-ride="carousel">
 	 		
 	 		<!-- Indicators for the carousel images  -->
 	 		<ol class="carousel-indicators">
@@ -145,7 +127,7 @@
 	 			</div>
 	 			
 	 			<div class="item" id="image3">
-	 			<img src ="Images/Instruments.jpg" alt ="Instruments" class="img-responsive">
+	 			<img src ="Images/Instruments1.jpg" alt ="Instruments" class="img-responsive">
 	 			</div>
 	 			<!-- Controls for the carousel  -->
 	 		<a class="left carousel-control" data-slide="prev" href="#mainCarousel"><span class="icon-prev"></span></a>
@@ -154,17 +136,120 @@
 	 	</div><!-- ending the mainCarousel -->
 	 	</div><!-- Ending the container for the carousel  -->
 	 	
-	 	<div class="row" id="songsBanner">
+	<div class="container id="songs">
+     		<div class="col-sm-12 col-md-12 col-lg-12 main">
+          		<a href="songs.jsp"><h2><span class="text-muted">New Releases</span></h2></a>
+          		<hr>
+					<div class="row placeholders">
+           				<div class="col-xs-6 col-sm-2 placeholder">
+             			<img src="Images/Bolo-Har-Har-Har.jpg" width="150" height="150" class="img-responsive" alt="Generic placeholder thumbnail">
+              			<h4> <span class="txt">Bolo Har Har Har</span></h4>
+             			<span class="text-muted">Shivaay</span>
+            			</div>
+            			<div class="col-xs-6 col-sm-2 placeholder">
+              			<img src="Images/Ae-Dil-Hai-Mushkil-I-Hindi.jpg" width="150" height="150" class="img-responsive" alt="Generic placeholder thumbnail">
+              			<h4><span class="txt">Bulleya</span></h4>
+              			<span class="text-muted">Ae Dil Hai Mushkil</span>
+            			</div>
+            			<div class="col-xs-6 col-sm-2 placeholder">
+              			<img src="Images/Banjo.jpg" width="150" height="150" class="img-responsive" alt="Generic placeholder thumbnail">
+              			<h4><span class="txt">Rada</span></h4>
+              			<span class="text-muted">Banjo</span>
+            			</div>
+            			<div class="col-xs-6 col-sm-2 placeholder">
+              			<img src="Images/M-S-Dhoni-The-Untold-Story.jpg" width="150" height="150" class="img-responsive" alt="Generic placeholder thumbnail">
+              			<h4><span class="txt">Besabriyaan</span></h4>
+              			<span class="text-muted">MS Dhoni The Untold Story</span>
+            			</div>
+            			<div class="col-xs-6 col-sm-2 placeholder">
+              			<img src="Images/Raaz-Reboot-2-Hindi.jpg" width="150" height="150" class="img-responsive" alt="Generic placeholder thumbnail">
+              			<h4><span class="txt">Raaz Aakhen Teri</span></h4>
+              			<span class="text-muted">Raaz Reboot</span>
+           				</div>
+           				<div class="col-xs-6 col-sm-2 placeholder">
+              			<img src="Images/Labon-Ka-Karobaar.jpg" width="150" height="150" class="img-responsive" alt="Generic placeholder thumbnail">
+              			<h4><span class="txt">Labon Ka Karobaar</span></h4>
+              			<span class="text-muted">Befikre</span>
+           				</div>
+           			</div>
+           	</div>
+            
+         </div><!-- end container songs -->
 	 	
-	 	</div> <!-- ending the songsBanner -->
-	 	
-	 	
-	 	<div class="row" id="albumsBanner">
+	<div class="container" id="albumsBanner">
+	 		<div class="col-sm-12 col-md-12 col-lg-12 main">
+          		<a href="albums.jsp"><h2><span class="text-muted">Latest Albums</span></h2></a>
+          		<hr>
+					<div class="row placeholders">
+           				<div class="col-xs-6 col-sm-2 placeholder">
+             			<img src="Images/Rock-On-2.jpg" width="150" height="150" class="img-responsive" alt="Generic placeholder thumbnail">
+              			<h4> <span class="txt">Rock On 2</span></h4>
+             			<span class="text-muted">Shankar-Ehsaan-Loy</span>
+            			</div>
+            			<div class="col-xs-6 col-sm-2 placeholder">
+              			<img src="Images/Ae-Dil-Hai-Mushkil-I-Hindi.jpg" width="150" height="150" class="img-responsive" alt="Generic placeholder thumbnail">
+              			<h4><span class="txt">Ae Dil Hai Mushkil</span></h4>
+              			<span class="text-muted">Pritam</span>
+            			</div>
+            			<div class="col-xs-6 col-sm-2 placeholder">
+              			<img src="Images/Raaz-Reboot-2-Hindi.jpg" width="150" height="150" class="img-responsive" alt="Generic placeholder thumbnail">
+              			<h4><span class="txt">Raaz Reboot</span></h4>
+              			<span class="text-muted">Jeet Gannguli</span>
+           				</div>
+           				<div class="col-xs-6 col-sm-2 placeholder">
+              			<img src="Images/Baar-Baar-Dekho.jpg" width="150" height="150" class="img-responsive" alt="Generic placeholder thumbnail">
+              			<h4><span class="txt">Baar Baar Dekho</span></h4>
+              			<span class="text-muted">Various Artists </span>
+            			</div>
+           				<div class="col-xs-6 col-sm-2 placeholder">
+              			<img src="Images/A-Flying-Jatt.jpg" width="150" height="150" class="img-responsive" alt="Generic placeholder thumbnail">
+              			<h4><span class="txt">A Flying Jatt</span></h4>
+              			<span class="text-muted">Sachin-Jigar</span>
+           				</div>
+           				<div class="col-xs-6 col-sm-2 placeholder">
+              			<img src="Images/M-S-Dhoni-The-Untold-Story.jpg" width="150" height="150" class="img-responsive" alt="Generic placeholder thumbnail">
+              			<h4><span class="txt">MS Dhoni The Untold Story</span></h4>
+              			<span class="text-muted">Amaal Mallik</span>
+            			</div>
+           			</div>
+           	</div>
 	 	
 	 	</div> <!-- ending the albumsBanner -->
-	 	
+
 	 
-	 	<div class="row" id="instrumentsBanner">
+	<div class="container" id="instrumentsBanner">
+	 	<div class="col-sm-12 col-md-12 col-lg-12 main">
+          		<a href="instruments.jsp"><h2><span class="text-muted">Instruments Catalogue</span></h2></a>
+          		<hr>
+					<div class="row placeholders">
+           				<div class="col-xs-6 col-sm-2 placeholder">
+             			<img src="Images/Flutes.jpg" width="150" height="150" class="img-responsive" alt="Generic placeholder thumbnail">
+              			<h4> <span class="txt">Flutes</span></h4>
+            			</div>
+            			<div class="col-xs-6 col-sm-2 placeholder">
+              			<img src="Images/Guitar.jpg" width="150" height="150" class="img-responsive" alt="Generic placeholder thumbnail">
+              			<h4><span class="txt">Guitars</span></h4>
+            			</div>
+            			<div class="col-xs-6 col-sm-2 placeholder">
+              			<img src="Images/piano.jpg" width="150" height="150" class="img-responsive" alt="Generic placeholder thumbnail">
+              			<h4><span class="txt">Piano</span></h4>
+              			</div>
+           				<div class="col-xs-6 col-sm-2 placeholder">
+              			<img src="Images/drums.jpg" width="150" height="150" class="img-responsive" alt="Generic placeholder thumbnail">
+              			<h4><span class="txt">Drums</span></h4>
+            			</div>
+           				<div class="col-xs-6 col-sm-2 placeholder">
+              			<img src="Images/Horns.jpg" width="150" height="150" class="img-responsive" alt="Generic placeholder thumbnail">
+              			<h4><span class="txt">Horns</span></h4>
+           				</div>
+           				<div class="col-xs-6 col-sm-2 placeholder">
+              			<img src="Images/Violin.jpg" width="150" height="150" class="img-responsive" alt="Generic placeholder thumbnail">
+              			<h4><span class="txt">Violins</span></h4>
+
+            			</div>
+            			
+           			</div>
+           	</div>
 	 	
 	 	</div> <!-- ending the instrumentsBanner -->
 	 	
@@ -175,10 +260,9 @@
 	 	
 	 	
 	 
-	</div> <!-- ending div main_container -->
+</div> <!-- ending div main_container -->
 	
-	<footer>
-	</footer>
+
 
 </body>
 </html>
