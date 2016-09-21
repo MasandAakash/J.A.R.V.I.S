@@ -128,8 +128,8 @@
 	 	
 	 	</div>
 	 	</div>
-	 <div class="container" id="songs_next">
-	 <p>hellooooo <hr class="featuerete-divider"></p>
+	 <div class="container" id="next">
+	 <p>hellooooo </p>
 	 </div>
 	 	
 	</div> <!-- ending div main_container -->

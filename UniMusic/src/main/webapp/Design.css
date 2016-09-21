@@ -9,58 +9,18 @@
 	background-color: black;	
 }
 
-.navbar-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
-}
+
 
 #carouselContainer
 {
 	margin-top: 60px;
-	margin-bottom: 30px;
+	
 	
 }
 
-#songs_next{
+#next{
 	
 	margin-top:60px;
 	
 	
-}
-
-
-.placeholders {
-  
-  text-align: center;
-}
-
-.placeholder {
-  margin-bottom: 20px;
-}
-.placeholders h4 {
-  margin-bottom: 0;
-  
-}
-.placeholder img {
-  display: inline-block;
-  border-radius: 50%;
-}
-.main .h2 {
-  text-align : left;
-  margin-top: 0;
-  on-hover: cursor-hand;
-  on-hover: red;
-}
-
-.txt:hover {
-    text-decoration: underline;
-}
-
-.main a
-{
-	
-    text-decoration: none;
 }
